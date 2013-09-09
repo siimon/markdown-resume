@@ -39,7 +39,18 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: #375AC5;
+    color: #f01f00;
+}
+
+a:hover{
+  color: #005bd7;
+}
+
+::selection {
+	background: rgba(255,0,39,0.1);
+	}
+::-moz-selection {
+	background: #ffb7b7;
 }
 
 blockquote, blockquote a {
